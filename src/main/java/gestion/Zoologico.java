@@ -29,7 +29,7 @@ public class Zoologico {
 	
 	//public agregarZonas(){}
 	
-	//public int cantidadTotalAnimales(){}
+	//public int cantidadTotalAnimales(){}//
 	
 
 		
