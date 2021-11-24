@@ -49,12 +49,12 @@ public class Pez extends Animal {
 	}
 	
 	public void crearSalmon(String nombre,int edad,String genero) {
-		new Pez(nombre,edad,"oceano",genero,"rojo",6);
 		salmones++;
+		return new Pez(nombre,edad,"oceano",genero,"rojo",6);
 	}
 	
 	public void crearBacalao(String nombre,int edad,String genero) {
-		new Pez(nombre,edad,"oceano",genero,"gris",6);
 		bacalaos++;
+		return new Pez(nombre,edad,"oceano",genero,"gris",6);
 	}
 }
