@@ -34,4 +34,8 @@ public class Ave extends Animal {
 	static public ArrayList<Ave> getListado(){
 		return Ave.listado;
 	}
+	
+	static public int cantidadAves() {
+		return Ave.getListado().size();
+	}
 }

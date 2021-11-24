@@ -42,4 +42,8 @@ public class Reptil extends Animal{
 	static public ArrayList<Reptil> getListado(){
 		return Reptil.listado;
 	}
+	
+	static public int cantidadREptiles() {
+		return Reptil.getListado().size();
+	}
 }

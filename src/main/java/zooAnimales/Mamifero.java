@@ -39,5 +39,9 @@ public class Mamifero extends Animal {
 	static public ArrayList<Mamifero> getListado(){
 		return Mamifero.listado;
 	}
+	
+	static public int cantidadMamiferos() {
+		return Mamifero.getListado().size();
+	}
 
 }

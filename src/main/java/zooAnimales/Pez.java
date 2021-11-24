@@ -43,4 +43,8 @@ public class Pez extends Animal {
 	static public ArrayList<Pez> getListado(){
 		return Pez.listado;
 	}
+	
+	static public int cantidadPeces() {
+		return Pez.getListado().size();
+	}
 }

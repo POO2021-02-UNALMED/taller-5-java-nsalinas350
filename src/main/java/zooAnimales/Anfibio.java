@@ -44,4 +44,7 @@ public class Anfibio extends Animal {
 		return Anfibio.listado;
 	}
 	
+	static public int cantidadAnfibios() {
+		return Anfibio.getListado().size();
+	}
 }
