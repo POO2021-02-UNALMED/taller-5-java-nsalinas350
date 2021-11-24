@@ -17,14 +17,14 @@ public class Mamifero extends Animal {
 		this.patas = patas;
 	}
 	
-	public String isPelaje(){
+	public boolean isPelaje(){
 		return this.pelaje;
 	}
 	public void setPelaje(boolean p){
 		pelaje = p;
 	}
 	
-	public String getPatas(){
+	public int getPatas(){
 		return this.patas;
 	}
 	public void setPatas(int p){

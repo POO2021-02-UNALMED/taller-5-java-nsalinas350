@@ -1,5 +1,7 @@
 package zooAnimales;
 
+import gestion.*;
+
 public class Animal {
 	protected String nombre;
 	protected int edad;

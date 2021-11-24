@@ -19,7 +19,7 @@ public class Reptil extends Animal{
 	public int getLargoCola(){
 		return this.largoCola;
 	}
-	public String setLargoCola(int l){
+	public void setLargoCola(int l){
 		largoCola = l;
 	}
 
