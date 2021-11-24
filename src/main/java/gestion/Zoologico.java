@@ -16,10 +16,15 @@ public class Zoologico {
 	public String getNombre(){
 		return this.nombre;
 	}
+	public void String setNombre(String n){
+		this.nombre = n;
+	}
 	
 	public String getUbicacion(){
 		return this.ubicacion;
-		
+	}
+	public void String setUbicacion(String u){
+		this.ubicacion = u;
 	}
 	
 	/*public agregarZonas(){
