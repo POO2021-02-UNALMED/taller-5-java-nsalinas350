@@ -22,11 +22,18 @@ public class Reptil extends Animal{
 		Reptil.listado.add(this);
 	}
 	
+	public String getColorEscamas(){
+		return this.colorEscamas;
+	}
+	public void setColorEscamas(String c){
+		this.colorEscamas = c;
+	}
+	
 	public int getLargoCola(){
 		return this.largoCola;
 	}
 	public void setLargoCola(int l){
-		largoCola = l;
+		this.largoCola = l;
 	}
 
 	public String movimiento() {
