@@ -52,7 +52,7 @@ public class Animal {
 		if(zona != null){
 		return "Mi nombre es "+this.getNombre()+", tengo una edad de "+this.getEdad()+
 				", habito en "+this.getHabitat()+" y mi genero es "+this.getGenero()+
-				", la zona en la que me ubico es "+zona.getNombre()+", en el "
+				", la zona en la que me ubico es "+getZona().getNombre()+", en el "
 				+zona.getZoo().getNombre();
 		}else {
 		return "Mi nombre es "+this.getNombre()+", tengo una edad de "+this.getEdad()+
