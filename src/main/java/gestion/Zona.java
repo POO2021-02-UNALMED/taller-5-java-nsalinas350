@@ -12,5 +12,12 @@ public class Zona {
 		this.zoo = zoo;
 		//zoo.agregarZonas();
 	}
+	
+	getNombre(){
+		reuturn this.nombre;
+	}
+	
+	getZoo(){
+		reuturn this.zoo;
 
 }
