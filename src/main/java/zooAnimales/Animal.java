@@ -49,7 +49,7 @@ public class Animal {
 	}
 	
 	public String toString() {
-		if(zona = null){
+		if(zona == null){
 		return "Mi nombre es "+this.getNombre()+", tengo una edad de "+this.getEdad()+
 				", habito en "+this.getHabitat()+" y mi genero es "+this.getGenero()+
 				", la zona en la que me ubico es "+zona.getNombre()+", en el "
