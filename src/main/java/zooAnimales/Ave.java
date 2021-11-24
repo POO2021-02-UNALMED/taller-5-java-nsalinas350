@@ -39,7 +39,7 @@ public class Ave extends Animal {
 		return Ave.getListado().size();
 	}
 	
-	static public void crearHalcon(String nombre,int edad,String genero) {
+	/*static public void crearHalcon(String nombre,int edad,String genero) {
 		this.nombre = nombre;
 		this.edad = edad;
 		this.habitat = "montanas";
@@ -57,5 +57,5 @@ public class Ave extends Animal {
 		this.colorPlumas = "blanco y amarillo";
 		Ave.listado.add(this);
 		aguilas++;
-	}
+	}*/
 }
