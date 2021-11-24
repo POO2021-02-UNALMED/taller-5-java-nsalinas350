@@ -65,7 +65,7 @@ public class Animal {
 				"Aves: "+ Ave.getListado().size()+"\n"+
 				"Reptiles: "+ Reptil.getListado().size()+"\n"+
 				"Peces: "+ Pez.getListado().size()+"\n"+
-				"Anfibios: "+ Anfibio.getListado().size()+"\n";
+				"Anfibios: "+ Anfibio.getListado().size();
 	}
 	
 }
