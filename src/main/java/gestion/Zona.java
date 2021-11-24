@@ -7,7 +7,9 @@ public class Zona {
 	private Zoologico zoo;
 	private Animal[] animales;
 	
-	public Zoologico(String nombre, Zoologico zoo){
+	public Zona() {
+	}
+	public Zona(String nombre, Zoologico zoo){
 		this.nombre = nombre;
 		this.zoo = zoo;
 		//zoo.agregarZonas();
@@ -17,7 +19,7 @@ public class Zona {
 		return this.nombre;
 	}
 	
-	public String getZoo(){
+	public Zoo getZoo(){
 		return this.zoo;
 
 }
