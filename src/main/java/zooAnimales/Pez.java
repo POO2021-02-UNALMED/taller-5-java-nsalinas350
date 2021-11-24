@@ -7,8 +7,8 @@ public class Pez extends Animal {
 	private String colorEscamas;
 	private int cantidadAletas;
 	
-	public Ave() {}
-	public Mamifero(String nombre,int edad,String habitat,String genero,String colorEscamas,int cantidadAletas) {
+	public Pez() {}
+	public Pez(String nombre,int edad,String habitat,String genero,String colorEscamas,int cantidadAletas) {
 		this.nombre = nombre;
 		this.edad = edad;
 		this.habitat = habitat;

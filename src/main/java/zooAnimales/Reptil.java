@@ -7,8 +7,8 @@ public class Reptil {
 	private String colorEscamas;
 	private int largoCola;
 	
-	public Ave() {}
-	public Mamifero(String nombre,int edad,String habitat,String genero,int largoCola) {
+	public Reptil() {}
+	public Reptil(String nombre,int edad,String habitat,String genero,int largoCola) {
 		this.nombre = nombre;
 		this.edad = edad;
 		this.habitat = habitat;

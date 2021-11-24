@@ -7,8 +7,8 @@ public class Anfibio extends Animal {
 	private String colorPiel;
 	private boolean venenoso;
 	
-	public Ave() {}
-	public Mamifero(String nombre,int edad,String habitat,String genero,String colorPiel,boolean venenoso) {
+	public Anfibio() {}
+	public Anfibio(String nombre,int edad,String habitat,String genero,String colorPiel,boolean venenoso) {
 		this.nombre = nombre;
 		this.edad = edad;
 		this.habitat = habitat;
@@ -21,7 +21,7 @@ public class Anfibio extends Animal {
 		return this.colorPiel;
 	}
 
-	public boolean isvenenoso(){
+	public boolean isVenenoso(){
 		return this.venenoso;
 	}
 	

@@ -7,7 +7,7 @@ public class Ave extends Animal {
 	private String colorPlumas;
 	
 	public Ave() {}
-	public Mamifero(String nombre,int edad,String habitat,String genero,String colorplumas) {
+	public Ave(String nombre,int edad,String habitat,String genero,String colorplumas) {
 		this.nombre = nombre;
 		this.edad = edad;
 		this.habitat = habitat;
