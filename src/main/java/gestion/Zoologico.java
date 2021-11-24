@@ -27,9 +27,7 @@ public class Zoologico {
 		this.ubicacion = u;
 	}
 	
-	/*public agregarZonas(){
-		
-	}*/
+	//public agregarZonas(){}
 	
 	//public int cantidadTotalAnimales(){}
 	
