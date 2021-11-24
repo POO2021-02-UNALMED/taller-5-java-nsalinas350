@@ -1,10 +1,10 @@
 package zooAnimales;
 
 public class Animal {
-	private String nombre;
-	private int edad;
-	private String habitat;
-	private String genero;
+	protected String nombre;
+	protected int edad;
+	protected String habitat;
+	protected String genero;
 	
 	private int totalAnimales;
 	private Zona zona;
@@ -22,7 +22,7 @@ public class Animal {
 		return this.nombre;
 	}
 	
-	public String getEdad(){
+	public int getEdad(){
 		return this.edad;
 	}
 	

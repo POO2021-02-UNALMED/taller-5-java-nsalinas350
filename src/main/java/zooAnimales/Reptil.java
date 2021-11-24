@@ -1,6 +1,6 @@
 package zooAnimales;
 
-public class Reptil {
+public class Reptil extends Animal{
 	private static Reptil[] listado;
 	public int iguanas;
 	public int serpientes;
@@ -16,7 +16,7 @@ public class Reptil {
 		this.largoCola = largoCola;
 	}
 	
-	public String getLargoCola(){
+	public int getLargoCola(){
 		return this.largoCola;
 	}
 	public String setLargoCola(int l){

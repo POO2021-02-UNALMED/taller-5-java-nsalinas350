@@ -31,6 +31,8 @@ public class Zoologico {
 		
 	}*/
 	
+	public int cantidadTotalAnimales(){}
+	
 
 		
 
