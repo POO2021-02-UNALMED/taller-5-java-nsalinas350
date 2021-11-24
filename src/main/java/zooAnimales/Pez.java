@@ -48,7 +48,7 @@ public class Pez extends Animal {
 		return Pez.getListado().size();
 	}
 	
-	public void crearSalmon(String nombre,int edad,String genero) {
+	static public void crearSalmon(String nombre,int edad,String genero) {
 		this.nombre = nombre;
 		this.edad = edad;
 		this.habitat = "oceano";
@@ -59,7 +59,7 @@ public class Pez extends Animal {
 		salmones++;
 	}
 	
-	public void crearBacalao(String nombre,int edad,String genero) {
+	static public void crearBacalao(String nombre,int edad,String genero) {
 		this.nombre = nombre;
 		this.edad = edad;
 		this.habitat = "oceano";
