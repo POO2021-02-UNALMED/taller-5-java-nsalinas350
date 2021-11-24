@@ -45,7 +45,7 @@ public class Mamifero extends Animal {
 		return Mamifero.getListado().size();
 	}
 
-	/*static public void crearCaballo(String nombre,int edad,String genero) {
+	static public void crearCaballo(String nombre,int edad,String genero) {
 		this(nombre,edad,"pradera",genero,true,4);
 		caballos++;
 	}
@@ -53,6 +53,6 @@ public class Mamifero extends Animal {
 	static public void crearLeon(String nombre,int edad,String genero) {
 		Mamifero(nombre,edad,"selva",genero,true,4);
 		leones++;
-	}*/
+	}
 	
 }

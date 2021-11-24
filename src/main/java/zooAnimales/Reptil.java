@@ -66,6 +66,7 @@ public class Reptil extends Animal{
 		this.colorEscamas = "blanco";
 		this.largoCola = 1;
 		Reptil.listado.add(this);
-		serpientes++;*/
+		serpientes++;
+		}*/
 	}
 
