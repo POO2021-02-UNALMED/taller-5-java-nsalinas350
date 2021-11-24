@@ -10,11 +10,14 @@ public class Zoologico {
 		this.ubicacion = ubicacion
 	}
 	
-	getNombre(){
+	public getNombre(){
 		reuturn this.nombre;
 	}
 	
-	getUbicacion(){
+	public getUbicacion(){
 		reuturn this.ubicacion;
+		
+	}
 	
+	//agregar zonas
 }
