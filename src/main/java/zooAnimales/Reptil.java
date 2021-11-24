@@ -19,6 +19,9 @@ public class Reptil {
 	public String getLargoCola(){
 		return this.largoCola;
 	}
+	public String setLargoCola(int l){
+		largoCola = l;
+	}
 
 	
 }

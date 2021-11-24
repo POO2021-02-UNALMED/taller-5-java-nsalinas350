@@ -18,14 +18,14 @@ public class Zona {
 	public String getNombre(){
 		return this.nombre;
 	}
-	public void String setNombre(String n){
+	public void setNombre(String n){
 		this.nombre = n;
 	}
 	
 	public Zoo getZoo(){
 		return this.zoo;
 	}
-	public void String setZoo(Zoologico z){
+	public void setZoo(Zoologico z){
 		this.zoo = z;
 	}
 
