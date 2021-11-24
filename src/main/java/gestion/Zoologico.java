@@ -29,7 +29,7 @@ public class Zoologico {
 		this.ubicacion = u;
 	}
 	
-	public ArrayList<Zona> getZonas(){
+	public ArrayList<Zona> getZona(){
 		return this.zonas;
 	}
 	public void agregarZonas(Zona zona){
