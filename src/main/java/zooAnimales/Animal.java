@@ -60,7 +60,7 @@ public class Animal {
 		}
 	}
 	
-	public String totalPorTipo(){
+	static public String totalPorTipo(){
 		return "Mamiferos: "+ Mamifero.getListado().size()+"\n"+
 				"Aves: "+ Ave.getListado().size()+"\n"+
 				"Reptiles: "+ Reptil.getListado().size()+"\n"+
