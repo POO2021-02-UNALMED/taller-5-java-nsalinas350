@@ -40,12 +40,12 @@ public class Ave extends Animal {
 	}
 	
 	public void crearHalcon(String nombre,int edad,String genero) {
-		new Ave(nombre,edad,"montanas",genero,"cafe glorioso")
+		new Ave(nombre,edad,"montanas",genero,"cafe glorioso");
 		halcones++;
 	}
 	
 	public void crearAguila(String nombre,int edad,String genero) {
-		new Ave(nombre,edad,"montanas",genero,"blanco y amarillo”")
+		new Ave(nombre,edad,"montanas",genero,"blanco y amarillo”");
 		aguilas++;
 	}
 }
