@@ -49,25 +49,12 @@ public class Anfibio extends Animal {
 	}
 	
 	static public void crearRana(String nombre,int edad,String genero) {
-		this.nombre = nombre;
-		this.edad = edad;
-		this.habitat = "selva";
-		this.genero = genero;
-		this.colorPiel = "rojo";
-		this.venenoso = true;
-		Anfibio.listado.add(this);
+		Anfibio(String nombre,int edad,"selva",String genero,"rojo",true)
 		ranas++;
 	}
 	
 	static public void crearSalamandra(String nombre,int edad,String genero) {
-		this.nombre = nombre;
-		this.edad = edad;
-		this.habitat = "selva";
-		this.genero = genero;
-		this.colorPiel = "negro y amarillo";
-		this.venenoso = false;
-		Anfibio.listado.add(this);
-		ranas++;
+		Anfibio(String nombre,int edad,"selva",String genero,"negro y amarillo",false)
 		salamandras++;
 	}
 }
