@@ -39,12 +39,12 @@ public class Ave extends Animal {
 		return Ave.getListado().size();
 	}
 	
-	public void crearHalcon(String nombre,int edad,String genero) {
+	public Ave crearHalcon(String nombre,int edad,String genero) {
 		halcones++;
 		return new Ave(nombre,edad,"montanas",genero,"cafe glorioso");
 	}
 	
-	public void crearAguila(String nombre,int edad,String genero) {
+	public Ave crearAguila(String nombre,int edad,String genero) {
 		aguilas++;
 		return new Ave(nombre,edad,"montanas",genero,"blanco y amarillo");
 	}

@@ -47,12 +47,12 @@ public class Reptil extends Animal{
 		return Reptil.getListado().size();
 	}
 	
-	public void crearIguana(String nombre,int edad,String genero) {
+	public Reptil crearIguana(String nombre,int edad,String genero) {
 		iguanas++;
 		return new Reptil(nombre,edad,"humedal",genero,"verde",3);
 	}
 	
-	public void crearSerpiente(String nombre,int edad,String genero) {
+	public Reptil crearSerpiente(String nombre,int edad,String genero) {
 		serpientes++;
 		return new Reptil(nombre,edad,"jungla",genero,"blanco",1);
 	}

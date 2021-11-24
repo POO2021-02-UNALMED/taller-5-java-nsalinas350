@@ -48,12 +48,12 @@ public class Anfibio extends Animal {
 		return Anfibio.getListado().size();
 	}
 	
-	public void crearRana(String nombre,int edad,String genero) {
+	public Anfibio crearRana(String nombre,int edad,String genero) {
 		ranas++;
 		return new Anfibio(nombre,edad,"selva",genero,"rojo",true);
 	}
 	
-	public void crearSalamandra(String nombre,int edad,String genero) {
+	public AnfibiocrearSalamandra(String nombre,int edad,String genero) {
 		salamandras++;
 		return new Anfibio(nombre,edad,"selva",genero,"negro y amarillo",false);
 	}
