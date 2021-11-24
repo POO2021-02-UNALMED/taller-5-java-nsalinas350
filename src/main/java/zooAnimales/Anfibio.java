@@ -4,8 +4,8 @@ import java.util.ArrayList;
 
 public class Anfibio extends Animal {
 	static private ArrayList<Anfibio> listado = new ArrayList<Anfibio>();
-	public int ranas;
-	public int salamandras;
+	static public int ranas;
+	static public int salamandras;
 	private String colorPiel;
 	private boolean venenoso;
 	
@@ -46,5 +46,28 @@ public class Anfibio extends Animal {
 	
 	static public int cantidadAnfibios() {
 		return Anfibio.getListado().size();
+	}
+	
+	public void crearRana(String nombre,int edad,String genero) {
+		this.nombre = nombre;
+		this.edad = edad;
+		this.habitat = "selva";
+		this.genero = genero;
+		this.colorPiel = "rojo";
+		this.venenoso = true;
+		Anfibio.listado.add(this);
+		ranas++;
+	}
+	
+	public void crearSalamandra(String nombre,int edad,String genero) {
+		this.nombre = nombre;
+		this.edad = edad;
+		this.habitat = "selva";
+		this.genero = genero;
+		this.colorPiel = "negro y amarillo";
+		this.venenoso = false;
+		Anfibio.listado.add(this);
+		ranas++;
+		salamandras++;
 	}
 }
