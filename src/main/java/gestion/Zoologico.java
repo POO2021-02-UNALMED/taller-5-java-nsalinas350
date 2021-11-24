@@ -11,11 +11,11 @@ public class Zoologico {
 	}
 	
 	public String getNombre(){
-		reuturn this.nombre;
+		return this.nombre;
 	}
 	
 	public String getUbicacion(){
-		reuturn this.ubicacion;
+		return this.ubicacion;
 		
 	}
 	

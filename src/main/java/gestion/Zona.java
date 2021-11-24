@@ -14,10 +14,10 @@ public class Zona {
 	}
 	
 	public String getNombre(){
-		reuturn this.nombre;
+		return this.nombre;
 	}
 	
 	public String getZoo(){
-		reuturn this.zoo;
+		return this.zoo;
 
 }
