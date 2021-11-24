@@ -39,23 +39,13 @@ public class Ave extends Animal {
 		return Ave.getListado().size();
 	}
 	
-	/*static public void crearHalcon(String nombre,int edad,String genero) {
-		this.nombre = nombre;
-		this.edad = edad;
-		this.habitat = "montanas";
-		this.genero = genero;
-		this.colorPlumas = "cafe glorioso";
-		Ave.listado.add(this);
+	public void crearHalcon(String nombre,int edad,String genero) {
+		new Ave(nombre,edad,"montanas",genero,"cafe glorioso")
 		halcones++;
 	}
 	
-	static public void crearAguila(String nombre,int edad,String genero) {
-		this.nombre = nombre;
-		this.edad = edad;
-		this.habitat = "montanas";
-		this.genero = genero;
-		this.colorPlumas = "blanco y amarillo";
-		Ave.listado.add(this);
+	public void crearAguila(String nombre,int edad,String genero) {
+		new Ave(nombre,edad,"montanas",genero,"blanco y amarillo”")
 		aguilas++;
-	}*/
+	}
 }

@@ -47,26 +47,13 @@ public class Reptil extends Animal{
 		return Reptil.getListado().size();
 	}
 	
-	/*static public void crearIguana(String nombre,int edad,String genero) {
-		this.nombre = nombre;
-		this.edad = edad;
-		this.habitat = "humedal";
-		this.genero = genero;
-		this.colorEscamas = "verde";
-		this.largoCola = 3;
-		Reptil.listado.add(this);
+	public void crearIguana(String nombre,int edad,String genero) {
+		new Reptil(nombre,edad,"humedal",genero,"verde",3);
 		iguanas++;
 	}
 	
-	static public void crearSerpiente(String nombre,int edad,String genero) {
-		this.nombre = nombre;
-		this.edad = edad;
-		this.habitat = "jungla";
-		this.genero = genero;
-		this.colorEscamas = "blanco";
-		this.largoCola = 1;
-		Reptil.listado.add(this);
+	public void crearSerpiente(String nombre,int edad,String genero) {
+		new Reptil(nombre,edad,"jungla",genero,"blanco",1);
 		serpientes++;
-		}*/
 	}
-
+}

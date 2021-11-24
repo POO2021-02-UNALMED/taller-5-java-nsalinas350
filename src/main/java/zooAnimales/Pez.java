@@ -48,25 +48,13 @@ public class Pez extends Animal {
 		return Pez.getListado().size();
 	}
 	
-	/*static public void crearSalmon(String nombre,int edad,String genero) {
-		this.nombre = nombre;
-		this.edad = edad;
-		this.habitat = "oceano";
-		this.genero = genero;
-		this.colorEscamas = "rojo";
-		this.cantidadAletas = 6;
-		Pez.listado.add(this);
+	public void crearSalmon(String nombre,int edad,String genero) {
+		new Pez(nombre,edad,"oceano",genero,"rojo",6);
 		salmones++;
 	}
 	
-	static public void crearBacalao(String nombre,int edad,String genero) {
-		this.nombre = nombre;
-		this.edad = edad;
-		this.habitat = "oceano";
-		this.genero = genero;
-		this.colorEscamas = "gris";
-		this.cantidadAletas = 6;
-		Pez.listado.add(this);
+	public void crearBacalao(String nombre,int edad,String genero) {
+		new Pez(nombre,edad,"oceano",genero,"gris",6);
 		bacalaos++;
-	}*/
+	}
 }
