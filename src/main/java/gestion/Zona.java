@@ -13,11 +13,11 @@ public class Zona {
 		//zoo.agregarZonas();
 	}
 	
-	public getNombre(){
+	public String getNombre(){
 		reuturn this.nombre;
 	}
 	
-	public getZoo(){
+	public String getZoo(){
 		reuturn this.zoo;
 
 }

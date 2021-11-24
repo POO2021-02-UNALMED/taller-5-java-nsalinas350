@@ -7,17 +7,19 @@ public class Zoologico {
 	
 	public Zoologico(String nombre, String ubicacion){
 		this.nombre = nombre;
-		this.ubicacion = ubicacion
+		this.ubicacion = ubicacion;
 	}
 	
-	public getNombre(){
+	public String getNombre(){
 		reuturn this.nombre;
 	}
 	
-	public getUbicacion(){
+	public String getUbicacion(){
 		reuturn this.ubicacion;
 		
 	}
 	
-	//agregar zonas
+	/*public agregarZonas(){
+		
+	}*/
 }
